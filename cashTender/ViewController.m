@@ -56,6 +56,7 @@
     double itemCost;
     double changeMade;
     double orNothing = 0.00;
+    double time = 2.00;
     
     paidAmount = [self.amountEntry.text doubleValue];
     itemCost = [self.productCost doubleValue];
@@ -63,7 +64,7 @@
     self.runningTotal += itemCost;
     self.currentCash.text = [NSString stringWithFormat:@"%0.2f", self.runningTotal];
     self.showChange.text = [NSString stringWithFormat:@"%0.2f", changeMade];
-    NSLog(@"%f", orNothing);
+    NSLog(@"%f %f", orNothing, time);
     
 }
 

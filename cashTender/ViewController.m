@@ -55,7 +55,7 @@
     double paidAmount;  // Amount Paid
     double itemCost;
     double changeMade;  // Make Change
-    double orNothing = 0.00;
+    double orNothing = 0.00;  // nothing
     
     paidAmount = [self.amountEntry.text doubleValue];
     itemCost = [self.productCost doubleValue];

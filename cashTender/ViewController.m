@@ -70,7 +70,7 @@
     
     self.runningTotal -= amount;
     self.currentCash.text = [NSString stringWithFormat:@"%0.2f", self.runningTotal];
-    
+    [self textFieldShouldReturn];
     return YES;
 }
 

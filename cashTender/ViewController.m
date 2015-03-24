@@ -53,7 +53,7 @@
 - (IBAction)makeChange:(UIButton *)sender
 {
     double paidAmount;  // Amount Paid
-    double itemCost;
+    double itemCost;    // cost
     double changeMade;  // Make Change
     double orNothing = 0.00;  // nothing
     

@@ -25,7 +25,7 @@
     
     self.runningTotal = 150.00f;
     self.currentCash.text = [NSString stringWithFormat:@"%0.2f", self.runningTotal];
-    
+    self.runningTotal = [self.currentCash.text doubleValue];
     [self.costEntry setDelegate:self];
     
 }

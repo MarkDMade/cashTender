@@ -52,7 +52,7 @@
 
 - (IBAction)makeChange:(UIButton *)sender
 {
-    double paidAmount;
+    double paidAmount;  // Amount Paid
     double itemCost;
     double changeMade;
     

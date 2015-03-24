@@ -84,7 +84,7 @@
     bool done = [self cashDrop:amount];
     if (done)
     {
-        NSLog(@"We got it");
+        NSLog(@"We got it"); // We got it
     }
 }
 
